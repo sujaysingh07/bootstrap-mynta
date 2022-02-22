@@ -1,0 +1,28 @@
+{
+    "carousek":[
+        {
+            "id":"1",
+            "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/18/7bb93f35-48fb-4318-9680-c6a3797f95811645198488041-desktop.gif"
+        },
+        {
+            "id":"2",
+            "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/16/7d22fdcb-e6d2-4f69-980e-b03144ea7d981645029580623-Indian-Wear_Desk.jpg"
+        },
+        {
+            "id":"3",
+            "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/16/e7a224ce-0f49-408f-88d3-4379873f520c1645030240702-Bio-Essence_Desk_Baner.jpg"
+        },
+        {
+            "id":"4",
+            "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/14/e8a6c496-d2e1-4236-8f81-bbc391e065d41644850839089-Running-Shoes_Desk--1-.jpg"
+        },
+        {
+            "id":"5",
+            "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/14/ea96eb92-73ca-434e-a4e8-12836ba0cf331644850936891-Flats---Heels_Dk.jpg"
+        },
+        {
+            "id":"6",
+            "image": "https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2021/11/16/11cc5325-37c6-4490-9adb-6f09ccb2a0781637049244895-luxe-banner.jpg"
+        }
+    ]
+}
