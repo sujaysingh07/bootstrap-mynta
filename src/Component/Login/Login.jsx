@@ -1,7 +1,13 @@
 import React from 'react'
 import { Card, Image, Row,Button} from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
+  let navigate = useNavigate()
+  let home = () => {
+    navigate("/");
+    window.location.reload();
+  };
   return (
     <div className="login" style={{height:"100vh"}}>
 
@@ -14,7 +20,7 @@ const Login = () => {
        
         <p>By continuing, I agree to the <span><a href="">Terms of Use</a> &#38;  <a href="">Privacy Policy</a> </span></p>
         
-        <Button>CONTINUE</Button>
+        <Button onClick={home}>CONTINUE</Button>
         <p>Have trouble logging in? <span>Get help</span> </p>
 
     </Card>

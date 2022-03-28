@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Dropdown } from "react-bootstrap";
 import Men from "../Wears/Men";
 import Women from "../Wears/Women";
@@ -10,27 +10,28 @@ import Profile from "./Profile";
 import { useNavigate } from "react-router-dom";
 // import Dealsday from "./Dealsday";
 const Header = () => {
-  let navigate =useNavigate()
-  let change=()=>{
-    navigate("/wishlist")
-  }
-  let home=()=>{
-    navigate('./')
+  let navigate = useNavigate();
+  let change = () => {
+    navigate("/wishlist");
+  };
+  let home = () => {
+    navigate("/");
     window.location.reload();
-
-  }
-  let bag=()=>{
-    navigate("/bag")
-  }
+  };
+  let bag = () => {
+    navigate("/bag");
+  };
   useEffect(() => {
-    if(window.location.pathname === '/login'){
-        document.getElementById('profile').style.display= 'none'
-    }else{
-      document.getElementById('nav').style.display= 'block'
+    if (window.location.pathname === "/login") {
+      document.getElementById("profile").style.display = "none";
+    } else {
+      document.getElementById("nav").style.display = "block";
     }
-},)
+  });
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+    <div className="nav">
+
+    <nav className="navbar navbar-expand-lg navbar-light bg-light w-100" id="nav">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img
@@ -48,46 +49,40 @@ const Header = () => {
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
-        >
+          >
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-                <Men/>
-            {/* console.log('sujay'); */}
-            
+              <Men />
+              {/* console.log('sujay'); */}
             </li>
 
             <li className="nav-item ">
-             
-                <Women/>
+              <Women />
             </li>
             <li className="nav-item ">
-             
-                <Kids/>
-            
+              <Kids />
             </li>
             <li className="nav-item ">
-             
-               <Home/>
+              <Home />
             </li>
             <li className="nav-item ">
-              
-                <Beauty/>
+              <Beauty />
             </li>
           </ul>
           <div className="input-group">
             <form className="d-flex">
               <input
                 id="search"
-                className="form-control me-2"
+                className="form-control"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
-                />
+              />
               <button className="btn btn-outline-primary" type="submit">
                 Search
               </button>
@@ -95,13 +90,9 @@ const Header = () => {
           </div>
           <div className="icons">
             <ul className="navbar-nav px-sm-2">
-              <li className="nav-item" id="profile"
-              >
-                
-                <i className="bi bi-person">
-
-                </i>
-                <Profile/>
+              <li className="nav-item" id="profile">
+                <i className="bi bi-person"></i>
+                <Profile />
               </li>
 
               <li className="nav-item" onClick={change}>
@@ -121,6 +112,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
+                </div>
   );
 };
 

@@ -7,7 +7,7 @@ const Kids = () => {
     <Dropdown>
       <Dropdown.Toggle variant="none">
         Kids
-        <DropdownMenu className="p-2" style={{ width: "1400px",marginRight:'70px' }}>
+        <DropdownMenu className="p-2" style={{ width: "1300px",marginRight:'70px' }}>
           <Row>
             <Col>
               <Dropdown.Item style={{ color: "red" }} href="#/action-3">

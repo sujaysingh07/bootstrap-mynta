@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Dropdown, Row, Col } from "react-bootstrap";
-import DropdownItem from "react-bootstrap/esm/DropdownItem";
 import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
 import { useNavigate } from "react-router-dom";
 
@@ -24,11 +23,11 @@ const Men = () => {
             <h6 className="mx-5">To access account and manage orders</h6>
           </Row>
           <Row>
-            <Button variant="none" className='mx-5' style={{width:'150px',border:'1px solid blue'}} onClick={login}>
+            <Button variant="none" className='mx-5' style={{width:'150px',border:'1px solid blue',backgroundColor:"Blue",color:"white"}} onClick={login}>
             Login/Signup
             </Button>
           </Row>
-          <div className="mx-3">
+          
           <Dropdown.Divider />
           <div className="mx-3">
 
@@ -44,7 +43,7 @@ const Men = () => {
           <Row>Saved Addresses</Row>
 
           </div>
-          </div>
+         
 
               </DropdownMenu>
         </Dropdown.Toggle>

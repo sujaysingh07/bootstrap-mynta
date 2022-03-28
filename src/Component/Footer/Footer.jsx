@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <div className="container" id="footer">
         <Row>
-            <Col><a href="">ONLINE SHOPPING</a></Col>
-            <Col><a href="">USEFUL LINKS</a></Col>
-            <Col><a href="">EXPERIENCE MYNTRA APP ON MOBILE</a></Col>
+            <Col><a href="#">ONLINE SHOPPING</a></Col>
+            <Col><a href="#">USEFUL LINKS</a></Col>
+            <Col><a href="#">EXPERIENCE MYNTRA APP ON MOBILE</a></Col>
             <Col><p>Some images</p></Col>
         </Row>
         <Row><Col>Men</Col>

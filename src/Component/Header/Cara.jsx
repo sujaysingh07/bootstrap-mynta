@@ -13,10 +13,6 @@ const Cara = () => {
         src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/16/7d22fdcb-e6d2-4f69-980e-b03144ea7d981645029580623-Indian-Wear_Desk.jpg"
         alt="First slide"
       />
-      <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img
@@ -24,11 +20,7 @@ const Cara = () => {
         src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/18/7bb93f35-48fb-4318-9680-c6a3797f95811645198488041-desktop.gif"
         alt="Second slide"
       />
-  
-      <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Carousel.Caption>
+ 
     </Carousel.Item>
     <Carousel.Item>
       <img
@@ -37,10 +29,7 @@ const Cara = () => {
         alt="Third slide"
       />
   
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
+    
     </Carousel.Item>
     <Carousel.Item>
       <img
@@ -49,10 +38,7 @@ const Cara = () => {
         alt="Third slide"
       />
   
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
+     
     </Carousel.Item>
     <Carousel.Item>
       <img
@@ -61,10 +47,6 @@ const Cara = () => {
         alt="Third slide"
       />
   
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img
@@ -73,10 +55,7 @@ const Cara = () => {
         alt="Third slide"
       />
   
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
+     
     </Carousel.Item>
     
   </Carousel>
