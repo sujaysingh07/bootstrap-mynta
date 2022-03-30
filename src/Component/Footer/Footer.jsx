@@ -7,13 +7,13 @@ const Footer = () => {
     <div className="container" id="footer" style={{ bottom: "0" }}>
       <Row>
         <Col>
-          <a href="#">ONLINE SHOPPING</a>
+          <a href="#actiion">ONLINE SHOPPING</a>
         </Col>
         <Col>
-          <a href="#">USEFUL LINKS</a>
+          <a href="#actiion">USEFUL LINKS</a>
         </Col>
         <Col>
-          <a href="#">EXPERIENCE MYNTRA APP ON MOBILE</a>
+          <a href="#actiion">EXPERIENCE MYNTRA APP ON MOBILE</a>
         </Col>
         <Col>
           <p>Some images</p>

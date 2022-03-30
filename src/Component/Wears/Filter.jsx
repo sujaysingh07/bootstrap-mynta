@@ -23,7 +23,7 @@ const Filter = () => {
         className="filter-box"
         style={{
           border: "1px solid grey",
-          // width: "300px",
+          width: "384px",
           display: "inline-block",
         }}
       >
