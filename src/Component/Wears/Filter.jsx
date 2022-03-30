@@ -16,7 +16,7 @@ const Filter = () => {
   return (
     <div
       className=" filter"
-      style={{ display: "inline-flex", width: "300px", height: "163vh" }}
+      style={{ display: "inline-flex", width: "100%", height: "200vh" }}
     >
       {/* <label>filter</label> */}
       <div

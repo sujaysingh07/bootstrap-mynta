@@ -1,17 +1,40 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react";
+import { Card } from "react-bootstrap";
+import axios from "axios";
+
 
 const Products = () => {
-  useEffect(()=>{
-    fetch('https://fakestoreapi.com/products')
-            .then(res=>res.json())
-            .then(json=>console.log(json))
-
-  })
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    axios
+      .get("https://fakestoreapi.com/products")
+      .then(function (responce) {
+        const data = responce.data;
+        setData(data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }, []);
   return (
-    <div className='product' style={{display:"flex"}}>
-            Products
+    <div className="product" style={{marginLeft:"50px" ,width:"100%"}}>
+      {data.map((elem) => {
+        return (
+          <div style={{display:"inline-block",width:'200px',height:"200px",margin:"20px",padding:"10px"}}>
+            <Card style={{height:"300px",cursor:"pointer"}}>
+              <div className="img" style={{display:'flex',margin:"20px auto"}}>
+              <img src={elem.image} alt="" width="100px"/> 
+              </div>
+              <div className="desc">
+                {elem.title}
+              </div>
+              </Card>
+              <br />
+          </div>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;
