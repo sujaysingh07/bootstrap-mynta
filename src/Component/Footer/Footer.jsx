@@ -4,7 +4,7 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-    <div className="container" id="footer">
+    <div className="container" id="footer" style={{bottom:"0"}}>
         <Row>
             <Col><a href="#">ONLINE SHOPPING</a></Col>
             <Col><a href="#">USEFUL LINKS</a></Col>
