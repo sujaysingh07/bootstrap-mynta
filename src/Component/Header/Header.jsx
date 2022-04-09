@@ -88,8 +88,8 @@ const Header = () => {
               </button>
             </form>
           </div>
-          <div className="icons">
-            <ul className="navbar-nav px-sm-2">
+          <div id="icons">
+            <ul className=" px-sm-2">
               <li className="nav-item" id="profile">
                 <i className="bi bi-person"></i>
                 <Profile />

@@ -8,10 +8,10 @@ const Men = () => {
     <Dropdown>
       <Dropdown.Toggle variant="none">
         Men
-        <DropdownMenu className="p-2" style={{ width: "1400px",marginRight:'70px' }}>
+        <DropdownMenu className="p-2" style={{ width: "1200px" }}>
           <Row>
-            <Col>
-              <Dropdown.Item style={{ color: "red" }} href="#/action-3">
+            <Col style={{width:"200px"}}>
+              <Dropdown.Item style={{ color: "red" }} className="dropdownItem" href="#/action-3">
                 Top Wear
               </Dropdown.Item>
               <Dropdown.Item href="#/action-3">T-shirts</Dropdown.Item>
